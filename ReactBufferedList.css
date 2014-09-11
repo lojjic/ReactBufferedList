@@ -1,0 +1,19 @@
+.react-list {
+    overflow: auto;
+}
+
+.react-list > ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.react-list > ul > li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
