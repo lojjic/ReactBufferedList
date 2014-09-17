@@ -38,6 +38,8 @@ best practices. I welcome suggestions for improvements.
   end/start of the list sometimes doesn't line up. It needs to update the scroll
   metrics on the fly and nudge the scroll height/top and item positions as needed
   to get things to line up correctly.
+- Need to implement a buffer of items outside the visible area, to minimize visible
+  blank areas when scrolling fast on slower devices.
 - There's currently a hard limit on the number of DOM nodes that can be inserted
   per frame, to prevent exceeding the frame budget. This limit is arbitrary and
   really needs to be tuned to the current environment; this should be possible by
